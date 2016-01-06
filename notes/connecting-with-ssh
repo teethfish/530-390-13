@@ -1,0 +1,27 @@
+To connect to the Linux server, which resides at merlin.me.jhu.edu, see the
+appropriate instructions below.
+
+========
+PC USERS
+========
+
+- Install PuTTY (http://www.putty.org/)
+- Install Xming (http://sourceforge.net/projects/xming/)
+
+- In PuTTY: use hostname merlin.me.jhu.edu
+- Enable X11 Forwarding:
+  - In the menu, under Connection, select SSH and then X11
+  - Check the box for `Enable X11 Forwarding'
+- Click Open to log in
+- Enter your JHED ID and password
+- If it gives you a Security Alert, click Yes because I promise my server
+  will not try to hack your computer
+
+=========
+MAC USERS
+=========
+
+- In a terminal, type `ssh -X <JHED ID>@merlin.me.jhu.edu'
+- If you find that X11 Forwarding does not work (if you see some error when
+  trying to display a plot, for example), install XQuartz
+  (http://www.xquartz.org/) and try again
