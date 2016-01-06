@@ -16,6 +16,9 @@ PC USERS
 - Enter your JHED ID and password
 - If it gives you a Security Alert, click Yes because I promise my server
   will not try to hack your computer
+* If you still receive an error message involving failure to connect to
+  the X server when trying to run code, try running the XLaunch program that
+  came with Xming
 
 =========
 MAC USERS
