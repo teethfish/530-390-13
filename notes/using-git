@@ -1,0 +1,28 @@
+To get the code from the course repository
+(https://github.com/ajsierakowski/530-390-13)
+into your own account that you can commit to:
+- Log in to your GitHub account.
+- Visit https://github.com/ajsierakowski/530-390-13 and click `Fork' in the
+  upper right-hand corner. This makes your own copy of the course repository
+  that you can work on.
+- Copy the URL to your repository (it should look similar to the course
+  repository, but with your username). I recommend using the HTTPS protocol to
+  simplify the authentication process.
+- On Merlin, in a directory in which you want the course repository to reside,
+  type `git clone <URL to your repository>'.
+- You should now have the directory `530-390-13', and it contains the contents
+  of the course repository.
+
+If you make changes and would like to save the state of your code:
+- Use `git add <files>' to add the files that you want to include in the commit.
+  You can find a summary of the files you've edited using `git status'.
+- Now type `git commit -m "Describe your changes here"'.
+- Finally, use `git push' to send the commit to GitHub.
+- You should now be able to view your changes on your GitHub webpage.
+
+**untested**
+When I make changes to the course repository (if you and I have conflicting
+changes, this becomes slightly more involved):
+- `git fetch upstream'
+- `git checkout master'
+- `git merge upstream/master'
