@@ -23,6 +23,5 @@ If you make changes and would like to save the state of your code:
 **untested**
 When I make changes to the course repository (if you and I have conflicting
 changes, this becomes slightly more involved):
-- `git fetch upstream'
-- `git checkout master'
-- `git merge upstream/master'
+First time only: `git remote add upstream https://github.com/ajsierakowski/530-390-13.git'
+- Pull changes to course repo: `git pull upstream master'
